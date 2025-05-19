@@ -1,7 +1,7 @@
 {
   "values": [
-    "#tinkers_jewelry_ex:casts/multi_use/chain",
-    "#tinkers_jewelry_ex:casts/multi_use/curved_plate",
-    "#tinkers_jewelry_ex:casts/multi_use/lining"
+    "tinkers_jewelry_ex:chain_cast",
+    "tinkers_jewelry_ex:curved_plate_cast",
+    "tinkers_jewelry_ex:lining_cast"
   ]
 }

@@ -1,7 +1,10 @@
 {
   "values": [
-    "#tinkers_jewelry_ex:casts/single_use/chain",
-    "#tinkers_jewelry_ex:casts/single_use/curved_plate",
-    "#tinkers_jewelry_ex:casts/single_use/lining"
+    "tinkers_jewelry_ex:chain_red_sand_cast",
+    "tinkers_jewelry_ex:curved_plate_red_sand_cast",
+    "tinkers_jewelry_ex:lining_red_sand_cast",
+    "tinkers_jewelry_ex:chain_sand_cast",
+    "tinkers_jewelry_ex:curved_plate_sand_cast",
+    "tinkers_jewelry_ex:lining_sand_cast"
   ]
 }

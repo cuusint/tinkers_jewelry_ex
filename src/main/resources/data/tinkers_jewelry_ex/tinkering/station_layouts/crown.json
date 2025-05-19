@@ -1,0 +1,46 @@
+{
+  "sortIndex": 16,
+  "translation_key": "item.tinkers_jewelry_ex.crown",
+  "icon": {
+    "item": "tinkers_jewelry_ex:crown",
+    "nbt": "{Damage:0,tic_broken:0b,tic_display:1b,tic_materials:[\"tconstruct:ui_render#head\",\"tconstruct:ui_render#handle\",\"tconstruct:ui_render#extra\",\"tconstruct:ui_render#large\",\"tconstruct:ui_render#extra_large\"]}"
+  },
+  "input_slots": [
+    {
+      "filter": {
+        "item": "tinkers_jewelry_ex:curved_plate"
+      },
+      "icon": "tinkers_jewelry_ex:curved_plate",
+      "translation_key": "item.tinkers_jewelry_ex.curved_plate",
+      "x": 24,
+      "y": 51
+    },
+    {
+      "filter": {
+        "item": "tinkersjewelry:gem"
+      },
+      "icon": "tinkersjewelry:gem",
+      "translation_key": "item.tinkersjewelry.gem",
+      "x": 24,
+      "y": 31
+    },
+    {
+      "filter": {
+        "item": "tinkersjewelry:gem"
+      },
+      "icon": "tinkersjewelry:gem",
+      "translation_key": "item.tinkersjewelry.gem",
+      "x": 44,
+      "y": 51
+    },
+    {
+      "filter": {
+        "item": "tinkersjewelry:gem"
+      },
+      "icon": "tinkersjewelry:gem",
+      "translation_key": "item.tinkersjewelry.gem",
+      "x": 44,
+      "y": 31
+    }
+  ]
+}

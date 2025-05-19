@@ -32,14 +32,16 @@ import static dev.ferriarnus.tinkersjewelry.items.ItemRegistry.GEM;
 public class ItemRegistry {
     protected static final SynchronizedDeferredRegister<CreativeModeTab> CREATIVE_TABS = SynchronizedDeferredRegister.create(Registries.CREATIVE_MODE_TAB, TinkersJewelryEX.MODID);
     private static final ItemDeferredRegisterExtension ITEMS = new ItemDeferredRegisterExtension(TinkersJewelryEX.MODID);
+    private static final Item.Properties TOOLS_PROPS = new Item.Properties().stacksTo(1);
     private static final Item.Properties PARTS_PROPS = new Item.Properties();
+    private static final Item.Properties CASTS_PROPS = new Item.Properties();
 
     //tools
-    public static final ItemObject<TinkerCuriosBraceletItem> BRACELET = ITEMS.register("bracelet", () -> new TinkerCuriosBraceletItem(PARTS_PROPS, JewelryEXDefinitions.BRACELET));
-    public static final ItemObject<TinkerCuriosCharmItem> CHARM = ITEMS.register("charm", () -> new TinkerCuriosCharmItem(PARTS_PROPS, JewelryEXDefinitions.CHARM));
-    public static final ItemObject<TinkerCuriosCrownItem> CROWN = ITEMS.register("crown", () -> new TinkerCuriosCrownItem(PARTS_PROPS, JewelryEXDefinitions.CROWN));
-    public static final ItemObject<TinkerCuriosGloveItem> GLOVE = ITEMS.register("glove", () -> new TinkerCuriosGloveItem(PARTS_PROPS, JewelryEXDefinitions.GLOVE));
-    public static final ItemObject<TinkerCuriosNecklaceItem> NECKLACE = ITEMS.register("necklace", () -> new TinkerCuriosNecklaceItem(PARTS_PROPS, JewelryEXDefinitions.NECKLACE));
+    public static final ItemObject<TinkerCuriosBraceletItem> BRACELET = ITEMS.register("bracelet", () -> new TinkerCuriosBraceletItem(TOOLS_PROPS, JewelryEXDefinitions.BRACELET));
+    public static final ItemObject<TinkerCuriosCharmItem> CHARM = ITEMS.register("charm", () -> new TinkerCuriosCharmItem(TOOLS_PROPS, JewelryEXDefinitions.CHARM));
+    public static final ItemObject<TinkerCuriosCrownItem> CROWN = ITEMS.register("crown", () -> new TinkerCuriosCrownItem(TOOLS_PROPS, JewelryEXDefinitions.CROWN));
+    public static final ItemObject<TinkerCuriosGloveItem> GLOVE = ITEMS.register("glove", () -> new TinkerCuriosGloveItem(TOOLS_PROPS, JewelryEXDefinitions.GLOVE));
+    public static final ItemObject<TinkerCuriosNecklaceItem> NECKLACE = ITEMS.register("necklace", () -> new TinkerCuriosNecklaceItem(TOOLS_PROPS, JewelryEXDefinitions.NECKLACE));
 
     //tool parts
     public static final ItemObject<ToolPartItem> CHAIN = ITEMS.register("chain", () -> new ToolPartItem(PARTS_PROPS, BlankBandMaterialStats.ID));
@@ -47,9 +49,9 @@ public class ItemRegistry {
     public static final ItemObject<ToolPartItem> LINING = ITEMS.register("lining", () -> new ToolPartItem(PARTS_PROPS, BlankBandMaterialStats.ID));
 
     //casts
-    public static final CastItemObject CHAIN_CAST = ITEMS.registerCast(CHAIN, PARTS_PROPS);
-    public static final CastItemObject CURVED_PLATE_CAST = ITEMS.registerCast(CURVED_PLATE, PARTS_PROPS);
-    public static final CastItemObject LINING_CAST = ITEMS.registerCast(LINING, PARTS_PROPS);
+    public static final CastItemObject CHAIN_CAST = ITEMS.registerCast(CHAIN, CASTS_PROPS);
+    public static final CastItemObject CURVED_PLATE_CAST = ITEMS.registerCast(CURVED_PLATE, CASTS_PROPS);
+    public static final CastItemObject LINING_CAST = ITEMS.registerCast(LINING, CASTS_PROPS);
 
     public static final RegistryObject<CreativeModeTab> tabTools = CREATIVE_TABS.register(
             "tools", () -> CreativeModeTab.builder().title(Component.translatable("itemGroup." + TinkersJewelryEX.MODID + ".all"))
