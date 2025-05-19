@@ -1,0 +1,39 @@
+{
+  "item.tinkers_jewelry_ex.bracelet.description": "手镯是简单的小饰品，根据使用的宝石赋予效果。",
+  "item.tinkers_jewelry_ex.bracelet": "手镯",
+  "item.tinkers_jewelry_ex.charm.description": "护符是简单的小饰品，根据使用的宝石赋予效果。",
+  "item.tinkers_jewelry_ex.charm": "护符",
+  "item.tinkers_jewelry_ex.crown.description": "皇冠是简单的小饰品，根据使用的宝石赋予效果。",
+  "item.tinkers_jewelry_ex.crown": "皇冠",
+  "item.tinkers_jewelry_ex.glove.description": "手套是简单的小饰品，根据使用的宝石赋予效果。",
+  "item.tinkers_jewelry_ex.glove": "手套",
+  "item.tinkers_jewelry_ex.necklace.description": "项链是简单的小饰品，根据使用的宝石赋予效果。",
+  "item.tinkers_jewelry_ex.necklace": "项链",
+
+  "item.tinkers_jewelry_ex.chain.description": "饰品链是护符和项链的部件。",
+  "item.tinkers_jewelry_ex.chain": "饰品链",
+  "item.tinkers_jewelry_ex.curved_plate.description": "弯曲板是手镯、护符、皇冠、手套的部件。",
+  "item.tinkers_jewelry_ex.curved_plate": "弯曲板",
+  "item.tinkers_jewelry_ex.lining.description": "内衬是手套的部件。",
+  "item.tinkers_jewelry_ex.lining": "内衬",
+
+  "item.tinkers_jewelry_ex.chain_cast": "饰品链金质铸模",
+  "item.tinkers_jewelry_ex.chain_sand_cast": "饰品链沙子铸模",
+  "item.tinkers_jewelry_ex.chain_red_sand_cast": "饰品链红沙铸模",
+  "item.tinkers_jewelry_ex.curved_plate_cast": "弯曲板金质铸模",
+  "item.tinkers_jewelry_ex.curved_plate_sand_cast": "弯曲板沙子铸模",
+  "item.tinkers_jewelry_ex.curved_plate_red_sand_cast": "弯曲板红沙铸模",
+  "item.tinkers_jewelry_ex.lining_cast": "内衬金质铸模",
+  "item.tinkers_jewelry_ex.lining_sand_cast": "内衬沙子铸模",
+  "item.tinkers_jewelry_ex.lining_red_sand_cast": "内衬红沙铸模",
+
+  "pattern.tinkers_jewelry_ex.chain" : "饰品链",
+  "pattern.tinkers_jewelry_ex.curved_plate" : "弯曲板",
+  "pattern.tinkers_jewelry_ex.lining" : "内衬",
+
+  "itemGroup.tinkers_jewelry_ex.all": "工匠珠宝扩展",
+
+  "stat.tinkers_jewelry_ex.chain": "饰品链",
+  "stat.tinkers_jewelry_ex.curved_plate": "弯曲板",
+  "stat.tinkers_jewelry_ex.lining": "内衬"
+}

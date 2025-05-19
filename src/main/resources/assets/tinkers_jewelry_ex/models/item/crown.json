@@ -1,0 +1,16 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "gem_left": "tinkers_jewelry_ex:item/tool/crown/gem_left",
+    "gem_middle": "tinkers_jewelry_ex:item/tool/crown/gem_middle",
+    "gem_right": "tinkers_jewelry_ex:item/tool/crown/gem_right",
+    "curved_plate": "tinkers_jewelry_ex:item/tool/crown/curved_plate"
+  },
+  "parts": [
+    { "name": "curved_plate", "index": 0 , "broken": "curved_plate_broken"},
+    { "name": "gem_left",   "index": 1 , "broken": "gem_left_broken"},
+    { "name": "gem_middle",   "index": 2 , "broken": "gem_middle_broken"},
+    { "name": "gem_right",   "index": 3 , "broken": "gem_right_broken"}
+  ]
+}

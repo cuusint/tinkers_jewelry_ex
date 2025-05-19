@@ -1,0 +1,156 @@
+{
+  "overrides": {
+    "tinkers_jewelry_ex:chain": [
+      "tconstruct:copper",
+      "tconstruct:iron",
+      "tconstruct:gold",
+      "tconstruct:osmium",
+      "tconstruct:tungsten",
+      "tconstruct:platinum",
+      "tconstruct:silver",
+      "tconstruct:lead",
+      "tconstruct:slimesteel",
+      "tconstruct:amethyst_bronze",
+      "tconstruct:nahuatl",
+      "tconstruct:pig_iron",
+      "tconstruct:rose_gold",
+      "tconstruct:steel",
+      "tconstruct:bronze",
+      "tconstruct:constantan",
+      "tconstruct:invar",
+      "tconstruct:electrum",
+      "tconstruct:plated_slimewood",
+      "tconstruct:manyullyn",
+      "tconstruct:cinderslime",
+      "tconstruct:queens_slime",
+      "tconstruct:cobalt",
+      "tconstruct:hepatizon",
+      "tinkers_things:hematite"
+    ],
+    "tinkers_jewelry_ex:curved_plate": [
+      "tconstruct:copper",
+      "tconstruct:iron",
+      "tconstruct:gold",
+      "tconstruct:osmium",
+      "tconstruct:tungsten",
+      "tconstruct:platinum",
+      "tconstruct:silver",
+      "tconstruct:lead",
+      "tconstruct:slimesteel",
+      "tconstruct:amethyst_bronze",
+      "tconstruct:nahuatl",
+      "tconstruct:pig_iron",
+      "tconstruct:rose_gold",
+      "tconstruct:steel",
+      "tconstruct:bronze",
+      "tconstruct:constantan",
+      "tconstruct:invar",
+      "tconstruct:electrum",
+      "tconstruct:plated_slimewood",
+      "tconstruct:manyullyn",
+      "tconstruct:cinderslime",
+      "tconstruct:queens_slime",
+      "tconstruct:cobalt",
+      "tconstruct:hepatizon",
+      "tinkers_things:hematite"
+    ],
+    "tinkers_jewelry_ex:lining": [
+      "tconstruct:copper",
+      "tconstruct:iron",
+      "tconstruct:gold",
+      "tconstruct:osmium",
+      "tconstruct:tungsten",
+      "tconstruct:platinum",
+      "tconstruct:silver",
+      "tconstruct:lead",
+      "tconstruct:slimesteel",
+      "tconstruct:amethyst_bronze",
+      "tconstruct:nahuatl",
+      "tconstruct:pig_iron",
+      "tconstruct:rose_gold",
+      "tconstruct:steel",
+      "tconstruct:bronze",
+      "tconstruct:constantan",
+      "tconstruct:invar",
+      "tconstruct:electrum",
+      "tconstruct:plated_slimewood",
+      "tconstruct:manyullyn",
+      "tconstruct:cinderslime",
+      "tconstruct:queens_slime",
+      "tconstruct:cobalt",
+      "tconstruct:hepatizon",
+      "tinkers_things:hematite"
+    ]
+  },
+  "parts": [
+    {
+      "path": "tinkers_jewelry_ex:item/tool/parts/chain",
+      "stat_type": "tinkersjewelry:plain_ring"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/parts/curved_plate",
+      "stat_type": "tinkersjewelry:plain_ring"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/parts/lining",
+      "stat_type": "tinkersjewelry:plain_ring"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/bracelet/gem",
+      "stat_type": "tinkersjewelry:gem"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/bracelet/curved_plate",
+      "stat_type": "tinkersjewelry:plain_ring"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/charm/gem",
+      "stat_type": "tinkersjewelry:gem"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/charm/curved_plate",
+      "stat_type": "tinkersjewelry:plain_ring"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/charm/chain",
+      "stat_type": "tinkersjewelry:plain_ring"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/crown/curved_plate",
+      "stat_type": "tinkersjewelry:plain_ring"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/crown/gem_left",
+      "stat_type": "tinkersjewelry:gem"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/crown/gem_middle",
+      "stat_type": "tinkersjewelry:gem"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/crown/gem_right",
+      "stat_type": "tinkersjewelry:gem"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/glove/lining",
+      "stat_type": "tinkersjewelry:plain_ring"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/glove/gem",
+      "stat_type": "tinkersjewelry:gem"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/glove/curved_plate",
+      "stat_type": "tinkersjewelry:plain_ring"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/necklace/gem",
+      "stat_type": "tinkersjewelry:gem"
+    },
+    {
+      "path": "tinkers_jewelry_ex:item/tool/necklace/chain",
+      "stat_type": "tinkersjewelry:plain_ring"
+    }
+  ],
+  "replace": false
+}

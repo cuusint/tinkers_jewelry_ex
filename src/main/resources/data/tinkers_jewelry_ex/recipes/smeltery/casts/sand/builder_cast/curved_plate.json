@@ -1,0 +1,8 @@
+{
+  "type": "tconstruct:item_part_builder",
+  "pattern": "tinkers_jewelry_ex:curved_plate",
+  "pattern_item": {
+    "tag": "tconstruct:casts/sand"
+  },
+  "result": "tinkers_jewelry_ex:curved_plate_red_sand_cast"
+}

@@ -1,0 +1,12 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "gem": "tinkers_jewelry_ex:item/tool/bracelet/gem",
+    "curved_plate": "tinkers_jewelry_ex:item/tool/bracelet/curved_plate"
+  },
+  "parts": [
+    { "name": "curved_plate", "index": 0 , "broken": "curved_plate_broken"},
+    { "name": "gem",   "index": 1 , "broken": "gem_broken"}
+  ]
+}

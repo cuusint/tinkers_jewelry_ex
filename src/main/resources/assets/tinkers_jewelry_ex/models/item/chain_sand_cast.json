@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tinkers_jewelry_ex:item/sand_cast/chain"
+  }
+}

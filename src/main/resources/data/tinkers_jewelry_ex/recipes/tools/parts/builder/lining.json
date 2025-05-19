@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:part_builder",
+  "cost": 1,
+  "pattern": "tinkers_jewelry_ex:lining",
+  "pattern_item": [
+    {
+      "tag": "tconstruct:patterns/default"
+    },
+    {
+      "item": "tinkers_jewelry_ex:lining_cast"
+    }
+  ],
+  "result": {
+    "item": "tinkers_jewelry_ex:lining"
+  }
+}

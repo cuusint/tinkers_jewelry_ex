@@ -1,0 +1,12 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "gem": "tinkers_jewelry_ex:item/tool/necklace/gem",
+    "chain": "tinkers_jewelry_ex:item/tool/necklace/chain"
+  },
+  "parts": [
+    { "name": "chain", "index": 0 , "broken": "chain_broken"},
+    { "name": "gem",   "index": 1 , "broken": "gem_broken"}
+  ]
+}

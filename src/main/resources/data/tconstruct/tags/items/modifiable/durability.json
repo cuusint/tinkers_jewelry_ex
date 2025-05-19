@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tinkers_jewelry_ex:bracelet",
+    "tinkers_jewelry_ex:charm",
+    "tinkers_jewelry_ex:crown",
+    "tinkers_jewelry_ex:glove",
+    "tinkers_jewelry_ex:necklace"
+  ]
+}
