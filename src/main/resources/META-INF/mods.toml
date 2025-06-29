@@ -68,3 +68,10 @@ mandatory=true
 versionRange="[1.2.0,)"
 ordering="AFTER"
 side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="tconjei"
+mandatory=true
+versionRange="[1.4.4,)"
+ordering="AFTER"
+side="BOTH"

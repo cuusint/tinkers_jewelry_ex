@@ -35,5 +35,8 @@
 
   "stat.tinkers_jewelry_ex.chain": "饰品链",
   "stat.tinkers_jewelry_ex.curved_plate": "弯曲板",
-  "stat.tinkers_jewelry_ex.lining": "内衬"
+  "stat.tinkers_jewelry_ex.lining": "内衬",
+
+  "tinkers_jewelry_ex.tool_stats.jewelry": "珠宝",
+  "tinkers_jewelry_ex.tooltip.jewelry": "珠宝材料"
 }

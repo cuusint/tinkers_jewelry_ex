@@ -6,6 +6,7 @@ import dev.ferriarnus.tinkersjewelry.tools.stats.BlankBandMaterialStats;
 import dev.ferriarnus.tinkersjewelry.tools.stats.GemMaterialStats;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -18,6 +19,7 @@ import slimeknights.tconstruct.common.registration.CastItemObject;
 import slimeknights.tconstruct.common.registration.ItemDeferredRegisterExtension;
 import slimeknights.tconstruct.library.materials.MaterialRegistry;
 import slimeknights.tconstruct.library.materials.definition.MaterialVariantId;
+import slimeknights.tconstruct.library.materials.stats.MaterialStatsId;
 import slimeknights.tconstruct.library.tools.helper.ToolBuildHandler;
 import slimeknights.tconstruct.library.tools.item.IModifiable;
 import slimeknights.tconstruct.library.tools.part.IMaterialItem;
@@ -44,6 +46,9 @@ public class ItemRegistry {
     public static final ItemObject<TinkerCuriosNecklaceItem> NECKLACE = ITEMS.register("necklace", () -> new TinkerCuriosNecklaceItem(TOOLS_PROPS, JewelryEXDefinitions.NECKLACE));
 
     //tool parts
+    public static final MaterialStatsId CHAIN_ID = new MaterialStatsId(new ResourceLocation(TinkersJewelryEX.MODID, "chain"));
+    public static final MaterialStatsId CURVED_PLATE_ID = new MaterialStatsId(new ResourceLocation(TinkersJewelryEX.MODID, "curved_plate"));
+    public static final MaterialStatsId LINING_ID = new MaterialStatsId(new ResourceLocation(TinkersJewelryEX.MODID, "lining"));
     public static final ItemObject<ToolPartItem> CHAIN = ITEMS.register("chain", () -> new ToolPartItem(PARTS_PROPS, BlankBandMaterialStats.ID));
     public static final ItemObject<ToolPartItem> CURVED_PLATE = ITEMS.register("curved_plate", () -> new ToolPartItem(PARTS_PROPS, BlankBandMaterialStats.ID));
     public static final ItemObject<ToolPartItem> LINING = ITEMS.register("lining", () -> new ToolPartItem(PARTS_PROPS, BlankBandMaterialStats.ID));

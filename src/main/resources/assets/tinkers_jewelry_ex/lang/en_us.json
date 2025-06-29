@@ -35,5 +35,8 @@
 
   "stat.tinkers_jewelry_ex.chain": "Chain",
   "stat.tinkers_jewelry_ex.curved_plate": "Curved Plate",
-  "stat.tinkers_jewelry_ex.lining": "Lining"
+  "stat.tinkers_jewelry_ex.lining": "Lining",
+
+  "tinkers_jewelry_ex.tool_stats.jewelry": "Jewelry Stats",
+  "tinkers_jewelry_ex.tooltip.jewelry": "jewelry material"
 }
