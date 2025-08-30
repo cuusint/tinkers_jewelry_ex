@@ -21,7 +21,7 @@ import java.util.List;
 @SuppressWarnings("unused")
 @JeiPlugin
 public class JewelryJEIPlugin implements IModPlugin {
-    ResourceLocation UID = new ResourceLocation(TConJEI.MOD_ID, "jei_plugin");
+    ResourceLocation UID = ResourceLocation.fromNamespaceAndPath(TConJEI.MOD_ID, "jei_plugin");
     private static final RecipeType<MaterialStatsWrapper> JEWELRY_STATS = RecipeType.create(TinkersJewelryEX.MODID, "jewelry_stats", MaterialStatsWrapper.class);
 
     @NotNull
